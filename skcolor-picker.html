@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Best Free color picker In JavaScript - JavaScript Color Picker</title>
+	<meta name="description" content="Well organized Javascript and easy to understand with lots of examples of how to use JavaScript.">
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+   <script src="js/topnav.js "> </script>
+   <script src="js/skcolor.js"></script>
+   <script src="js/skcolor2.js"></script>
+   <script src="js/skcolor3.js"></script>
+<!-- 
+ * skcolor - JavaScript Color Picker
+ *
+ * @link    http://www.sourceforcode.com
+ * @license For open source use: GPLv3
+ * @author  srinivas katam
+ * @version 1.0
+ *
+ * See usage examples at http://www.sourceforcode.com
+ -->
+
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="#" class="active">Home</a>
+  <a href="#">About</a>
+  <a href="#">News</a>
+  <a href="#">Contact</a>
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="jumbotron text-center">
+  <h1>Best Free color picker In JavaScript</h1>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Basic color picker</h3>
+      <p>
+Color: <input class="skcolor" value="ab2567"></p>
+     <p style="margin-top:3em;">Check out <a href="http://www.sourceforcode.com">more examples at sourceforcode.com</a>!</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Basic color picker 2</h3>
+      <p>Small picker with no shadow:
+<input value="7AD2FF" class="skcolor {width:101, padding:0, shadow:false,
+    borderWidth:0, backgroundColor:'transparent', insetColor:'#000'}">
+
+
+<p>Large dark picker:
+<input value="9EFF2E" class="skcolor {width:243, height:150, position:'right',
+    borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
+
+
+<p>Plastic look:
+<input value="FF3B0F" class="skcolor {position:'right',
+    borderColor:'#FFF #666 #666 #FFF',
+    insetColor:'#666 #FFF #FFF #666',
+    backgroundColor:'#CCC'}">
+	<p style="margin-top:3em;">Check out <a href="http://www.sourceforcode.com">more examples at sourceforcode.com</a>!</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Button element</h3>        
+      <p>You can add the color picker to a BUTTON:
+<button class="skcolor {value:'45FF0F'}"></button>
+
+<p>... which might be empty to just display the color:
+<button
+    class="skcolor {valueElement:null,value:'FF1926'}"
+    style="width:50px; height:20px;"></button>
+
+<p>... and can be styled too:
+<button
+    class="skcolor {valueElement:null,value:'4F1FFF'}"
+    style="border:2px solid black">
+    Pick a color
+</button>
+<p style="margin-top:3em;">Check out <a href="http://www.sourceforcode.com">more examples at sourceforcode.com</a>!</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
